@@ -1,0 +1,165 @@
+body{
+    
+    background-image: url('baby.jpg');
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    width: 1300px;
+    
+
+}
+.reg1 {
+    position: absolute;
+    left: 900px;
+    top: 50px;
+    width: 400px;
+    border: 2px solid black;
+    line-height: 15px;
+    border-radius: 20px;
+    background-color:rgba(0,0,0,0);
+
+}
+h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3,#but,input{
+    color: white;
+    position: relative;
+    left:50px;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+input{
+    padding: 10px;
+    width: 70%;
+    border-radius: 10px;
+    background-color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+#but {
+    position: relative;
+    background-color: green;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: white;
+    border: black;
+    border-radius: 20px;
+    left: 50px; /* Adjust as needed */
+    top: 35px;  /* Adjust as needed */
+}
+#inputcheck{
+    position: absolute;
+    left:50px;
+    background-color: white;
+    color: black;
+}
+#checkbox{
+    position: absolute;
+ margin: auto;
+ left: 510px;
+}
+label{
+    position: relative;
+    left: 90px;
+}
+.label1{
+    border-radius: 10px;
+    padding: 30px;
+    border-color: black;
+}
+::-ms-input-placeholder{
+    color: black;
+}
+
+#name{
+    color: black;
+}
+#char{
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(250, 254, 255);
+    font-size: 19px;
+    left: 55px;
+    bottom: 5px;
+    
+    }
+#char1 {
+    position:relative ;
+    background-color:green;
+    padding-top:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: white;
+    border: black;
+    border-radius: 20px;
+    left: 180px;
+    bottom: 32px;
+    font-size: 15px;
+    
+}
+
+#char1 a {
+    color: white;
+    text-decoration: none; 
+}
+#p1{
+    position: absolute;
+    color: white;
+    left: 50px; 
+    top: 350px;
+    width: 500px; 
+    font-size: 20px; 
+    font-weight: bold; 
+   padding: 10px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#p2{
+    position: absolute;
+    color: white;
+    top: 5px;
+    left: 50px; 
+    right: 50px;
+    width: 500px; 
+    font-size: 20px; 
+    font-weight: bold; 
+   padding: 10px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#p3{
+    position: absolute;
+    color: white;
+    top: 140px;
+    left: 50px; 
+    right: 50px;
+    width: 500px; 
+    font-size: 20px;
+    font-weight: bold; 
+   padding: 10px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+ol{
+    position: absolute;
+    color: white;
+    top: 210px;
+    left: 70px; 
+    right: 50px;
+    width: 500px; 
+    font-size: 20px; 
+    font-weight: bold; 
+   padding: 10px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#but:hover,#char1:hover{
+    background-color: rgba(0,0,0,0) ;
+    text-decoration: underline  ;
+    box-shadow: 10px 10px black;
+}

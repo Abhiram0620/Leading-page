@@ -1,0 +1,57 @@
+.login{
+    border: 2px solid black;
+    margin: auto;
+    text-align: left;
+    width: 310px;
+    line-height: 10px;
+    border-radius: 30px;
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+h3,input{
+    position: relative;
+    text-align: left;
+    left :50px
+}
+#inputlogin{
+    padding:6px;
+    width:190px;
+    border-radius: 10px;
+}
+
+label{
+    position: relative;
+    left:50px
+}
+button{
+    position:relative;
+    left :70px;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 15px;
+    color: aliceblue;
+}
+#button1{
+    position: relative;
+    left: 100px;
+}
+p{
+    position: relative;
+    left: 70px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+#button1:hover,#button:hover{
+    background-color: rgb(69, 82, 93);
+}
+body{
+    background-image: url('reg image5.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
